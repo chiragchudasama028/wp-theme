@@ -1,0 +1,134 @@
+.home.page-template #content{
+margin-top: 0;
+}
+.btn{
+    padding: 8px 36px;
+    border-radius: 0;
+    background-color: #020202;
+    color: #fff;
+    border-style: solid;
+    border-width: 0;
+    border-color: #fff;
+    display: inline-block;
+}   
+.swiper-slide{
+    position: relative;
+}
+.slider-text{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+.slider-text h2{
+    color: #000;
+    font-family: jost, Sans-serif;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.slider-text p{
+    color: #474747;
+    font-family: jost, Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+.slider-text .btn{
+    margin-top: 16px;
+}
+
+.d-flex{
+        display: flex;
+}
+@media (min-width: 1400px) {
+    .slider-text{
+
+    }
+    .slider-text h2{
+
+    }
+    .slider-text p{
+
+    }
+    .slider-text p{
+        
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .slider-text{
+
+    }
+    .slider-text h2{
+
+    }
+    .slider-text p{
+
+    }
+    .slider-text p{
+        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider-text{
+        width: 100%;
+        padding: 16px;
+        top: 0%;
+        left: 0;
+        transform: translate(0%, 0%);
+    }
+    .slider-text h2{
+        font-size: 62px;
+    }
+    .slider-text p{
+        font-size: 26px;
+
+    }
+    .slider-text .btn{
+        padding: 8px 36px;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-text{
+        width: 100%;
+        padding: 16px;
+        top: 0%;
+        left: 0;
+        transform: translate(0%, 0%);
+
+    }
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+    .slider-text{
+        width: 100%;
+        padding: 16px;
+        top: 0%;
+        left: 0;
+        transform: translate(0%, 0%);
+
+    }
+    .slider-text h2{
+        font-size: 26px;
+    }
+    .slider-text p{
+        font-size: 16px;
+        margin: 0;
+    }
+    .slider-text .btn{
+        padding: 4px 16px;
+        font-size: 14px;
+    }
+}
